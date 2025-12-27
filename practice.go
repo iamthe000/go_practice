@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	var usr_input = ""
 	var test string = "test"
+	fmt.Println(test)
 	fmt.Print("your name: ")
 	var name string
 	fmt.Scan(&name)
