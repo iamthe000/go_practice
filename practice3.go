@@ -14,14 +14,17 @@ func main() {
 		fmt.Scan(&input)
 
 		if input > number {
-			fmt.Println("BIG!")
+			fmt.Println("それより小さいです")
+			fmt.Println("rest", 10-i)
 		} else if input < number {
-			fmt.Println("SMALL!!")
+			fmt.Println("それより大きいです")
+			fmt.Println("rest", 10-i)
 		} else if input == number {
 			fmt.Println("CLEAR!!")
 			os.Exit(0)
 		} else {
 			fmt.Println("!?!?!?")
+			fmt.Println("rest", 10-i)
 		}
 	}
 	fmt.Println("game over")
