@@ -8,7 +8,7 @@ import (
 
 func main() {
 	number := rand.IntN(100)
-	for i := 1; i <= 5; i++ {
+	for i := 1; i <= 10; i++ {
 		var input int
 		fmt.Print("your prediction : ")
 		fmt.Scan(&input)
