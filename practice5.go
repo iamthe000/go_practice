@@ -11,6 +11,7 @@ type AppState struct {
 	titleLabel  *widget.RichText
 	SecondLabel *widget.Label
 	thirdLabel  *widget.Label
+	fourthLabel *widget.RichText
 }
 
 func main() {
@@ -23,6 +24,7 @@ func main() {
 		titleLabel:  widget.NewRichTextFromMarkdown("# Markdown TITLE"),
 		SecondLabel: widget.NewLabel("widget sub TITLE"),
 		thirdLabel:  third,
+		fourthLabel: widget.NewRichTextFromMarkdown("*markdown italic*"),
 	}
 
 	window.SetContent(state.makeUI())
@@ -35,5 +37,6 @@ func (s *AppState) makeUI() fyne.CanvasObject {
 		s.titleLabel,
 		s.SecondLabel,
 		s.thirdLabel,
+		s.fourthLabel,
 	)
 }
