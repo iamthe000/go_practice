@@ -12,8 +12,8 @@ func main() {
 	fmt.Println(name)
 	if name == "user" {
 		fmt.Println("hi user")
-		fmt.Scan(&usr_input)
 		fmt.Println("$: ")
+		fmt.Scan(&usr_input)
 		if usr_input == "hello" {
 			fmt.Println("hello!")
 		}else{
