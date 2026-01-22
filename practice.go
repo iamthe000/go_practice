@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var usr_input = ""
-	var test string = "test"
+	var test string = "test"//var 変数名 変数型 = ~~~
 	fmt.Println(test)
 	fmt.Print("your name: ")
 	var name string
