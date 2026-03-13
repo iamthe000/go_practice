@@ -1,0 +1,1 @@
+strings.Replace("hello", "l", "L", 1)
