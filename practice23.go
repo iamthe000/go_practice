@@ -7,5 +7,5 @@ import (
 
 func main() {
 	result := strings.Split("a,b,c", ",")
-	fmt.Println(result)
+	fmt.Println(result) // [a b c]
 }
