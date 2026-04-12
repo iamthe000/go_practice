@@ -1,3 +1,8 @@
-x := 16
+package main
 
-result := math.Sqrt(float64(x)) 
+import "fmt"
+
+func main() {
+    x := 16
+    result := math.Sqrt(float64(x)) 
+}
