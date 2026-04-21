@@ -18,6 +18,8 @@ func main() {
 strconvは文字列や数字の変換処理をまとめたパッケージ
 Atoi(A to i)はASCII (文字列) を Integer (整数) へ変換する関数
 Itoaで逆もできる
+
+errにはエラーが発生しなかった時はnilが返される
 */
 /*
 a, _ := strconv.Atoi("12345")
